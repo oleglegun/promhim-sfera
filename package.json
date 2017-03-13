@@ -3,6 +3,10 @@
   "description": "",
   "version": "1.0.0",
   "author": "Oleg Legun <oleg.legun@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/oleglegun/promhim-sfera.git"
+  },
   "dependencies": {
     "front-matter": "^2.0.7",
     "gatsby": "^0.12.6",
@@ -33,9 +37,13 @@
   "license": "MIT",
   "main": "n/a",
   "scripts": {
-    "build": "gatsby build",
-    "deploy": "gatsby build --prefix-links && gh-pages -d public",
-    "develop": "gatsby develop",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "npm run clean; gatsby build",
+    "clean": "rm -r public/*",
+    "copy-static": "cp -R assets/favicon/ public/; cp -R assets/static public/",
+    "deploy": "npm run clean; gatsby build --prefix-links && gh-pages -d public",
+    "watch": "watch 'echo File changed!' .",
+    "dev": "gatsby develop",
+    "test": "npm run unit",
+    "unit": "NODE_ENV=test mocha --compilers js:babel-core/register --require test/setup/index.js test/unit || exit 0"
   }
 }
