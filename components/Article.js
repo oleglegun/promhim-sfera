@@ -2,7 +2,7 @@ import React, { PropTypes } from 'react'
 
 function Article(props) {
     return (
-        <div>Article</div>
+        <article>Article</article>
     )
 }
 

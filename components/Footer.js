@@ -2,7 +2,7 @@ import React, { PropTypes } from 'react'
 
 function Footer(props) {
     return (
-        <div>Footer</div>
+        <footer>Footer</footer>
     )
 }
 

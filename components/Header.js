@@ -2,7 +2,7 @@ import React, { PropTypes } from 'react'
 
 function Header(props) {
     return (
-        <div>Header</div>
+        <header>Header</header>
     )
 }
 
