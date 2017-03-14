@@ -1,9 +1,13 @@
+import Header from './Header'
+import Footer from './Footer'
 import React, { PropTypes } from 'react'
 
 function Page(props) {
     return (
         <div>
-        {props.children}
+            <Header />
+            {props.children}
+            <Footer />
         </div>
     )
 }
