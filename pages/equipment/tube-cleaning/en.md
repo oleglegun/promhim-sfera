@@ -41,7 +41,7 @@ equipment operates on the principle of identification of the magnetic
 field change when a pig passes the sensor. Most types of pigs, including
 ball and echo/foam pigs, can be found, if equipped with small magnets.
 Magnetic pigs tracking equipment is a special portable system powered by
-12 V DC, which can be obtained from a truck or a small battery.
+12V DC, which can be obtained from a truck or a small battery.
 
 ## Acoustic monitoring equipment
 
