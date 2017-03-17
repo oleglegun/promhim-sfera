@@ -1,5 +1,5 @@
 ---
-title: Fittings
+title: Pipeline equipment
 path: /equipment/fitting/
 description:
 keywords: []

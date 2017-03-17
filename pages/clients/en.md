@@ -1,9 +1,9 @@
 ---
-title: Our clients
+title: Our customers
 path: /clients/
 description:
 keywords: []
 lang: en
 ---
 
-![Our clients](./clients.jpg)
+![Our customers](./clients.jpg)

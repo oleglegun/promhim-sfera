@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { PropTypes } from 'react'
 import Header from '../components/Header'
 import Footer from '../components/Footer'
 import { Link } from 'react-router'
@@ -21,8 +21,13 @@ export default class Index extends React.Component {
                     Header!
                 </h1>
                 <p>Welcome to your new clean Gatsby site</p>
+                <p>{this.context.data}</p>
                 <Footer />
             </div>
         )
     }
+}
+
+Index.contextTypes = {
+    data: PropTypes.number
 }
