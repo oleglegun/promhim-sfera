@@ -1,20 +1,42 @@
 const ru = {
-    'menu_equipment': 'Оборудование',
-    'menu_equipment_corrosion-monitoring': 'Мониторинг коррозии',
-    'menu_equipment_tube-cleaning': 'Очистные устройства для трубопроводов',
-    'menu_equipment_ventilation': 'Вентиляция',
-    'menu_equipment_valve': 'Клапаны',
-    'menu_equipment_blower': 'Газодувки',
-    'menu_equipment_fire-protection': 'Огнезащита',
-    'menu_equipment_zip': 'Зип',
-    'menu_equipment_test-stand': 'Испытательные стенды',
-    'menu_equipment_nko': 'Насосно-компрессорное оборудование',
-    'menu_equipment_nko_pump': 'Насосы',
-    'menu_equipment_nko_compressor': 'Компрессоры',
-    'menu_equipment_nko_mps': 'Мультифазные насосные станции',
-    'menu_clients': 'Наши заказчики',
-    'menu_press': 'Пресса о нас',
-    'menu_contacts': 'Контакты',
+    menu_main_left: [
+        {
+            title: 'Оборудование',
+            path: '/equipment/'
+        },
+        {
+            title: 'Наши заказчики',
+            path: '/clients/'
+        },
+    ],
+    menu_main_right: [
+        {
+            title: 'Пресса о нас',
+            path: '/press/'
+        },
+        {
+            title: 'Контакты',
+            path: '/contacts/'
+        }
+    ],
+
+
+    menu_equipment: {
+        '/equipment/corrosion-monitoring': 'Мониторинг коррозии',
+        '/equipment/tube-cleaning': 'Очистные устройства для трубопроводов',
+        '/equipment/ventilation': 'Вентиляция',
+        '/equipment/valve': 'Клапаны',
+        '/equipment/blower': 'Газодувки',
+        '/equipment/fire-protection': 'Огнезащита',
+        '/equipment/zip': 'Зип',
+        '/equipment/test-stand': 'Испытательные стенды',
+        '/equipment/nko': 'Насосно-компрессорное оборудование',
+    },
+    menu_nko: {
+        'nko/pump': 'Насосы',
+        'nko/compressor': 'Компрессоры',
+        'nko/mps': 'Мультифазные насосные станции',
+    },
 
     // Index page
     'index_slider': ['Добро пожаловать', 'на сайт компании', '"ПромXим-Сфера"'],
@@ -186,44 +208,44 @@ const en = {
     // Press page
     'press_magazines': [
         {
-            'title': 'NEFTIANIK',
-            'caption': 'Issue №13 | April 2010',
-            'description': 'Corrosion is under control',
+            title: 'NEFTIANIK',
+            caption: 'Issue №13 | April 2010',
+            description: 'Corrosion is under control',
         },
         {
-            'title': 'Territoria Neftegaz',
-            'caption': 'Issue №6 | June 2013',
-            'description': 'The most effective corrosion monitoring solutions',
+            title: 'Territoria Neftegaz',
+            caption: 'Issue №6 | June 2013',
+            description: 'The most effective corrosion monitoring solutions',
         },
         {
-            'title': 'Neftianik Udmurtii',
-            'caption': 'Issue №21 | August 2013',
-            'description': 'Microcor: to stop corrosion',
+            title: 'Neftianik Udmurtii',
+            caption: 'Issue №21 | August 2013',
+            description: 'Microcor: to stop corrosion',
         },
         {
-            'title': 'Inzhenernaya praktika',
-            'caption': 'Issue №8 | August 2011',
-            'description': 'Experience of using anti-corrosion protection and operating corrosion monitoring systems',
+            title: 'Inzhenernaya praktika',
+            caption: 'Issue №8 | August 2011',
+            description: 'Experience of using anti-corrosion protection and operating corrosion monitoring systems',
         },
         {
-            'title': 'Oil&Gas Eurasia',
-            'caption': 'Issue №5 | May 2014',
-            'description': 'New Technology for Pumping Wellbore Fluids',
+            title: 'Oil&Gas Eurasia',
+            caption: 'Issue №5 | May 2014',
+            description: 'New Technology for Pumping Wellbore Fluids',
         },
         {
-            'title': 'Oil&Gas Eurasia',
-            'caption': 'Issue №6 | June 2013',
-            'description': 'Rohrback Cosasco Corrosion Monitoring Systems',
+            title: 'Oil&Gas Eurasia',
+            caption: 'Issue №6 | June 2013',
+            description: 'Rohrback Cosasco Corrosion Monitoring Systems',
         },
         {
-            'title': 'Oil&Gas Eurasia',
-            'caption': 'Issue №6 | June 2011',
-            'description': 'Our effective solutions for corrosion protection',
+            title: 'Oil&Gas Eurasia',
+            caption: 'Issue №6 | June 2011',
+            description: 'Our effective solutions for corrosion protection',
         },
         {
-            'title': 'Oil&Gas Eurasia',
-            'caption': 'Issue №6 | June 2009',
-            'description': 'Corrosion monitoring in the high pressure systems',
+            title: 'Oil&Gas Eurasia',
+            caption: 'Issue №6 | June 2009',
+            description: 'Corrosion monitoring in the high pressure systems',
         }
     ],
 

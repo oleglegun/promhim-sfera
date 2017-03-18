@@ -16,13 +16,12 @@ export default class Index extends React.Component {
                         { "name": "description", "content": "ПромXим Сфера - Официальный сайт" },
                     ]}
                 />
-                <Header />
                 <h1>
                     Header!
                 </h1>
                 <p>Welcome to your new clean Gatsby site</p>
                 <p>{this.context.data}</p>
-                <Footer />
+
             </div>
         )
     }
