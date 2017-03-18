@@ -16,12 +16,13 @@ const ru = {
     'menu_press': 'Пресса о нас',
     'menu_contacts': 'Контакты',
 
-    'index_slider_line-1': 'Добро пожаловать',
-    'index_slider_line-2': 'на сайт компании',
-    'index_slider_line-3': '"ПромXим-Сфера"',
+    // Index page
+    'index_slider': ['Добро пожаловать', 'на сайт компании', '"ПромXим-Сфера"'],
 
-    'index_company-info-1': 'ЗАО ПКФ «ПромХим-Сфера» — поставщик технологичного оборудования и услуг для нефтегазовой, авиационной и металлургических отраслей. Качество и сроки поставляемой нами продукции соответствуют самым высоким требованиям наших заказчиков.',
-    'index_company-info-2': 'За время работы компании реализовано большое количество проектов по поставке оборудования. В связи с этим, на базе ЗАО ПКФ «ПромХим-Сфера» открыт сервисный центр по технической поддержке эксплуатируемого оборудования и сервисного обслуживания. Мы рассматриваем каждый проект как индивидуальную задачу и прилагаем все усилия для её реализации.',
+    'index_company-info': [
+        'ЗАО ПКФ «ПромХим-Сфера» — поставщик технологичного оборудования и услуг для нефтегазовой, авиационной и металлургических отраслей. Качество и сроки поставляемой нами продукции соответствуют самым высоким требованиям наших заказчиков.',
+        'За время работы компании реализовано большое количество проектов по поставке оборудования. В связи с этим, на базе ЗАО ПКФ «ПромХим-Сфера» открыт сервисный центр по технической поддержке эксплуатируемого оборудования и сервисного обслуживания. Мы рассматриваем каждый проект как индивидуальную задачу и прилагаем все усилия для её реализации.'
+    ],
 
     'index_advantages': 'Наши преимущества',
     'index_adv-1_title': 'Большой опыт работы',
@@ -65,6 +66,52 @@ const ru = {
     'index_questions_body': 'Наши специалисты будут рады вам помочь!',
     'index_questions_button': 'Обратная связь',
 
+    // Press page
+
+    'press_magazines': [
+        {
+            'title': 'НЕФТЯНИК',
+            'caption': 'Выпуск №13 | Апрель 2010',
+            'description': 'Коррозия — под контролем',
+        },
+        {
+            'title': 'Территория Нефтегаз',
+            'caption': 'Выпуск №6 | Июнь 2013',
+            'description': 'Наиболее эффективные решения в области коррозионного мониторинга',
+        },
+        {
+            'title': 'Нефтяник Удмуртии',
+            'caption': 'Выпуск №21 | Август 2013',
+            'description': 'Microcor: остановить коррозию',
+        },
+        {
+            'title': 'Инженерная практика',
+            'caption': 'Выпуск №8 | Август 2011',
+            'description': 'Опыт применения антикоррозионной защиты и эксплуатации системы коррозионного мониторинга',
+        },
+        {
+            'title': 'Oil&Gas Eurasia',
+            'caption': 'Выпуск №5 | Май 2014',
+            'description': 'Новые технологии перекачки продукции скважин',
+        },
+        {
+            'title': 'Oil&Gas Eurasia',
+            'caption': 'Выпуск №6 | Июнь 2013',
+            'description': 'Мониторинг коррозии Rohrback Cosasco Systems',
+        },
+        {
+            'title': 'Oil&Gas Eurasia',
+            'caption': 'Выпуск №6 | Июнь 2011',
+            'description': 'Наши эффективные решения для борьбы с коррозией',
+        },
+        {
+            'title': 'Oil&Gas Eurasia',
+            'caption': 'Выпуск №6 | Июнь 2009',
+            'description': 'Мониторинг коррозии в системах высокого давления',
+        },
+    ],
+
+
     'footer_copyright': 'ЗАО ПКФ "ПромХим-Сфера" © 2017',
 }
 
@@ -86,12 +133,13 @@ const en = {
     'menu_press': 'Media about us',
     'menu_contacts': 'Contacts',
 
-    'index_slider_line-1': 'Welcome',
-    'index_slider_line-2': 'to the website of',
-    'index_slider_line-3': 'JSC PKF "PromHim-Sfera"',
+    // Index page
+    'index_slider': ['Welcome', 'to the website of', 'JSC PKF "PromHim-Sfera"'],
 
-    'index_company-info-1': 'JSK PKF "PromHim-Sfera" is recommended in the Russian market as a reliable partner in the field of complex supplies of industrial equipment. Our company supplies equipment for the oil and gas industry, aviation and metal industry for more than ten years and constantly continues its development. Professional approach to business and gained experience have greatly helped us to expand the range of products and geography of delivery, as well as to succeed in different lines of business – delivery of industrial and laboratory equipment, engineering services and supply of spare parts.',
-    'index_company-info-2': 'Since the foundation of the company a lot of equipment supply projects have been executed. In connection with this the service center for technical support of supplied equipment and maintenance service has been opened on the basis of JSC PFK "PromHim-Sfera". We consider each project as an individual task and make every effort for its execution.',
+    'index_company-info': [
+        'JSK PKF "PromHim-Sfera" is recommended in the Russian market as a reliable partner in the field of complex supplies of industrial equipment. Our company supplies equipment for the oil and gas industry, aviation and metal industry for more than ten years and constantly continues its development. Professional approach to business and gained experience have greatly helped us to expand the range of products and geography of delivery, as well as to succeed in different lines of business – delivery of industrial and laboratory equipment, engineering services and supply of spare parts.',
+        'Since the foundation of the company a lot of equipment supply projects have been executed. In connection with this the service center for technical support of supplied equipment and maintenance service has been opened on the basis of JSC PFK "PromHim-Sfera". We consider each project as an individual task and make every effort for its execution.'
+    ],
 
     'index_advantages': 'Our advantages',
     'index_adv-1_title': 'Great experience',
@@ -134,6 +182,52 @@ const en = {
     'index_questions_title': 'Do you have any questions?',
     'index_questions_body': 'Our specialists will be glad to help you!',
     'index_questions_button': 'Feedback',
+
+    // Press page
+    'press_magazines': [
+        {
+            'title': 'NEFTIANIK',
+            'caption': 'Issue №13 | April 2010',
+            'description': 'Corrosion is under control',
+        },
+        {
+            'title': 'Territoria Neftegaz',
+            'caption': 'Issue №6 | June 2013',
+            'description': 'The most effective corrosion monitoring solutions',
+        },
+        {
+            'title': 'Neftianik Udmurtii',
+            'caption': 'Issue №21 | August 2013',
+            'description': 'Microcor: to stop corrosion',
+        },
+        {
+            'title': 'Inzhenernaya praktika',
+            'caption': 'Issue №8 | August 2011',
+            'description': 'Experience of using anti-corrosion protection and operating corrosion monitoring systems',
+        },
+        {
+            'title': 'Oil&Gas Eurasia',
+            'caption': 'Issue №5 | May 2014',
+            'description': 'New Technology for Pumping Wellbore Fluids',
+        },
+        {
+            'title': 'Oil&Gas Eurasia',
+            'caption': 'Issue №6 | June 2013',
+            'description': 'Rohrback Cosasco Corrosion Monitoring Systems',
+        },
+        {
+            'title': 'Oil&Gas Eurasia',
+            'caption': 'Issue №6 | June 2011',
+            'description': 'Our effective solutions for corrosion protection',
+        },
+        {
+            'title': 'Oil&Gas Eurasia',
+            'caption': 'Issue №6 | June 2009',
+            'description': 'Corrosion monitoring in the high pressure systems',
+        }
+    ],
+
+    // Contacts page
 
     'footer_copyright': 'JSC PKF "PromHim-Sfera" © 2017',
 }
