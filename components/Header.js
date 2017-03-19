@@ -1,6 +1,7 @@
 import React, { PropTypes } from 'react'
 import Menu from './Menu'
 import LangToggle from './LangToggle'
+import Logo from './Logo'
 
 function Header(props) {
     let menuLeftItems = props.dictionary.menu.menu_main_left
@@ -13,6 +14,7 @@ function Header(props) {
                     <LangToggle {...props}/>
                     <nav className="desktop-res">
                         <Menu items={menuLeftItems} id="menu-left"/>
+                        <Logo/>
                         <Menu items={menuRightItems} id="menu-right"/>
                     </nav>
                 </div>

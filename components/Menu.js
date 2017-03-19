@@ -1,10 +1,10 @@
 import React, { PropTypes } from 'react'
 import MenuItem from './MenuItem'
 import { prefixLink } from 'gatsby-helpers'
-import { Link } from 'react-router'
 
 function Menu(props) {
     let menuElements = props.items.map((item, index) => {
+
         let subMenu = null
         if (item.menu) {
             let subMenuElements = item.menu.map((item, index) => {
@@ -16,6 +16,7 @@ function Menu(props) {
                 </ul>
             )
         }
+
         return <MenuItem key={index} title={item.title} path={item.path} subMenu={subMenu} />
     })
 
