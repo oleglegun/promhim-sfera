@@ -4,16 +4,31 @@ import { Link } from 'react-router'
 
 function Menu(props) {
     let menuElements = props.items.map((item, index) => {
+        let subMenu = null
+        if (item.menu) {
+            let subMenuElements = item.menu.map((item, index) => {
+                return (
+                    <li key={index}>
+                        <Link to={prefixLink(item.path)}>{item.title}</Link>
+                    </li>
+                )
+            })
+            subMenu = (
+                <ul className="sub-menu">{subMenuElements}</ul>
+            )
+        }
+
         return (
             <li key={index}>
-                <Link to={item.path}>{item.title}</Link>
+                <Link to={prefixLink(item.path)}>{item.title}</Link>
+                {subMenu}
             </li>
         )
     })
     return (
-            <ul id={props.id} className="menu">
-                {menuElements}
-            </ul>
+        <ul id={props.id} className="menu">
+            {menuElements}
+        </ul>
     )
 }
 

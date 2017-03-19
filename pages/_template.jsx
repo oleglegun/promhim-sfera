@@ -3,6 +3,7 @@ import Page from '../components/Page'
 // import { Container } from 'react-responsive-grid'
 import { Link } from 'react-router'
 import { prefixLink } from 'gatsby-helpers'
+import '../css/reset.css'
 import '../css/style.css'
 import '../css/custom.css'
 

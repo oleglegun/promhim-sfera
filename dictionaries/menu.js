@@ -1,80 +1,55 @@
 const ru = {
     menu_main_left: [
         {
-            title: 'Оборудование',
-            path: '/equipment/'
+            title: 'Оборудование', path: '',
+            menu: [
+                { title: 'Мониторинг коррозии', path: '/equipment/corrosion-monitoring/' },
+                { title: 'Очистные устройства для трубопроводов', path: '/equipment/tube-cleaning/' },
+                { title: 'Вентиляция', path: '/equipment/ventilation/' },
+                { title: 'Клапаны', path: '/equipment/valve/' },
+                { title: 'Газодувки', path: '/equipment/blower/' },
+                { title: 'Огнезащита', path: '/equipment/fire-protection/' },
+                { title: 'Зип', path: '/equipment/zip/' },
+                { title: 'Испытательные стенды', path: '/equipment/test-stand/' },
+                { title: 'Насосы', path: '/equipment/nko/pump/' },
+                { title: 'Компрессоры', path: '/equipment/nko/compressor/' },
+                { title: 'Мультифазные насосные станции', path: '/equipment/nko/mps/' },
+            ]
         },
-        {
-            title: 'Наши заказчики',
-            path: '/clients/'
-        },
-    ],
-    menu_main_right: [
-        {
-            title: 'Пресса о нас',
-            path: '/press/'
-        },
-        {
-            title: 'Контакты',
-            path: '/contacts/'
-        }
+        { title: 'Наши заказчики', path: '/clients/' },
     ],
 
-    menu_equipment: {
-        '/equipment/corrosion-monitoring': 'Мониторинг коррозии',
-        '/equipment/tube-cleaning': 'Очистные устройства для трубопроводов',
-        '/equipment/ventilation': 'Вентиляция',
-        '/equipment/valve': 'Клапаны',
-        '/equipment/blower': 'Газодувки',
-        '/equipment/fire-protection': 'Огнезащита',
-        '/equipment/zip': 'Зип',
-        '/equipment/test-stand': 'Испытательные стенды',
-        '/equipment/nko': 'Насосно-компрессорное оборудование',
-    },
-    menu_nko: {
-        'nko/pump': 'Насосы',
-        'nko/compressor': 'Компрессоры',
-        'nko/mps': 'Мультифазные насосные станции',
-    },
+    menu_main_right: [
+        { title: 'Пресса о нас', path: '/press/' },
+        { title: 'Контакты', path: '/contacts/' }
+    ],
 }
 
 const en = {
     menu_main_left: [
         {
-            title: 'Equipment',
-            path: '/equipment/'
+            title: 'Equipment', path: '',
+            menu: [
+                { title: 'Corrosion monitoring', path: '/equipment/corrosion-monitoring/' },
+                { title: 'Pipelines treating facility', path: '/equipment/tube-cleaning/' },
+                { title: 'Ventilation', path: '/equipment/ventilation/' },
+                { title: 'Valves', path: '/equipment/valve/' },
+                { title: 'Gas blowers', path: '/equipment/blower/' },
+                { title: 'Fire protection', path: '/equipment/fire-protection/' },
+                { title: 'Spare parts', path: '/equipment/zip/' },
+                { title: 'Test facility', path: '/equipment/test-stand/' },
+                { title: 'Pumps', path: '/equipment/nko/pump/' },
+                { title: 'Compressors', path: '/equipment/nko/compressor/' },
+                { title: 'Multiphase pumping stations', path: '/equipment/nko/mps/' },
+            ]
         },
-        {
-            title: 'Our customers',
-            path: '/clients/'
-        },
+        { title: 'Our customers', path: '/clients/' },
     ],
+
     menu_main_right: [
-        {
-            title: 'Media about us',
-            path: '/press/'
-        },
-        {
-            title: 'Contacts',
-            path: '/contacts/'
-        }
+        { title: 'Media about us', path: '/press/' },
+        { title: 'Contacts', path: '/contacts/' }
     ],
-
-    'menu_equipment_corrosion-monitoring': 'Corrosion monitoring',
-    'menu_equipment_tube-cleaning': 'Pipelines treating facility',
-    'menu_equipment_ventilation': 'Ventilation',
-    'menu_equipment_valve': 'Valves',
-    'menu_equipment_blower': 'Gas blowers',
-    'menu_equipment_fire-protection': 'Fire protection',
-    'menu_equipment_zip': 'Spare parts',
-    'menu_equipment_test-stand': 'Test facility',
-    'menu_equipment_nko': 'Pump and compressor equipment',
-    'menu_equipment_nko_pump': 'Pumps',
-    'menu_equipment_nko_compressor': 'Compressors',
-    'menu_equipment_nko_mps': 'Multiphase pumping station',
-
-    'menu_press': 'Media about us',
-    'menu_contacts': 'Contacts',
 }
 
 export default { ru, en }
