@@ -44,7 +44,7 @@ const ru = {
 }
 
 const en = {
-    'press_magazines': [
+    'press': [
         {
             title: 'NEFTIANIK',
             caption: 'Issue №13 | April 2010',
