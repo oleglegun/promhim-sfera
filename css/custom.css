@@ -1,6 +1,21 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto+Condensed);
+
+#page-content a{ font-family: 'Roboto Condensed'; }
+h1{	font-family: 'Roboto Condensed'; }
+h2{ font-family: 'Roboto Condensed'; }
+h3{ font-family: 'Roboto Condensed'; }
+body{ font-family: 'Roboto Condensed'; }
+.LangToggle {
+    position: absolute;
+    top: 10px;
+    right: 30px;
+}
+
 .LangToggle .active{
     color: red
 }
+
+
 
 /*
 Theme Name:     Princess - Child Theme
@@ -69,13 +84,13 @@ body {
 /* Header - Short */
 
 .header {
-    /*background-image: url('images/header-bg.png');*/
+    background-image: url('./images/header-bg.png');
     height: 220px;
     margin-bottom:15px;
 }
 
 .header .bg {
-    /*background-image: url('images/header.png');*/
+    background-image: url('./images/header.png');
     height:165px;
 }
 

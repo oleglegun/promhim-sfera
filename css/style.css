@@ -575,7 +575,7 @@ pre {
     padding: 0px;
     padding-top: 9px;
     background-color: #fff;
-    /*background-image: url('images/dd-bg.png');*/
+    background-image: url('./images/dd-bg.png');
     background-repeat: no-repeat;
     background-position: top center;
     box-shadow: 0 4px 2px -2px rgba(182, 182, 182, 0.15);
@@ -590,7 +590,7 @@ pre {
 .header #menu-right .sub-menu{
     left: auto;
     right: 20px;
-    /*background-image: url('images/dd-bg-right.png');*/
+    /*background-image: url('./images/dd-bg-right.png');*/
 }
 
 

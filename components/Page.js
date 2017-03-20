@@ -8,6 +8,12 @@ class Page extends React.Component {
         lang: 'ru'
     }
 
+    getChildContext() {
+        return {
+            lang: this.state.lang
+        }
+    }
+
     toggleSetLangRu = (e) => {
         e.preventDefault()
         this.setState({
@@ -40,6 +46,9 @@ class Page extends React.Component {
     }
 }
 
+Page.childContextTypes = {
+    lang: PropTypes.string
+}
 Page.propTypes = {}
 Page.defaultProps = {}
 
