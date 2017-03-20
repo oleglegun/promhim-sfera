@@ -2352,7 +2352,7 @@ select{
 
 .tp-title.style3{
     padding-bottom: 33px;
-    /*background-image: url('images/title-style3.png');*/
+    background-image: url('images/title-style3.png');
     background-repeat: no-repeat;
     background-position: bottom center;
 }

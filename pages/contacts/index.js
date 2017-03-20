@@ -1,8 +1,13 @@
 import React, { PropTypes } from 'react'
+import PageTitle from '../../components/PageTitle'
+import contacts_dict from '../../dictionaries/contacts'
 
 function Contacts(props, context) {
+    const dict = contacts_dict[context.lang]
     return (
-        <div>Контакты</div>
+        <div>
+            <PageTitle title={dict.page_title} />
+        </div>
     )
 }
 

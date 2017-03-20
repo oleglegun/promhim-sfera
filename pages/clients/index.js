@@ -2,8 +2,7 @@ import React, { PropTypes } from 'react'
 import Article from '../../components/Article'
 
 function Clients(props, context) {
-    console.log(props.route)
-    let title = context.lang == 'ru' ? 'Наши заказчики' : 'Our customers'
+    const title = context.lang == 'ru' ? 'Наши заказчики' : 'Our customers'
     return (
         <div>
             <h1>{title}</h1>
