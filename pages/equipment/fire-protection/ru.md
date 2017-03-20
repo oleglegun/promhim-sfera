@@ -35,5 +35,5 @@ lang: ru
 Veritas.
 
 ![Огнезащита](./protect-04.jpg)
-![Огнезащита](./protect-02.jpg)
 ![Огнезащита](./protect-01.jpg)
+![Огнезащита](./protect-02.jpg)
