@@ -18,7 +18,11 @@ function Press(props, context) {
                 <PressItem img="./article-4.jpg" pdfLink="./article-4.pdf" title={dict.press[3].title}
                            caption={dict.press[3].caption} description={dict.press[3].description} last={true}/>
             </div>
-
+            <div className="tp-vl-row">
+                <div className="tp-vl-col full">
+                    <hr/>
+                </div>
+            </div>
             <div className="tp-vl-row">
                 <PressItem img="./article-5.jpg" pdfLink="./article-5.pdf" title={dict.press[4].title}
                            caption={dict.press[4].caption} description={dict.press[4].description} />
