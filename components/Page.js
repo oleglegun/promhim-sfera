@@ -39,6 +39,7 @@ class Page extends React.Component {
                         menu: menu_dict[this.state.lang]
                     }}
                 />
+                <div id="header-shadow"></div>
                 {this.props.children}
                 <Footer />
             </div>

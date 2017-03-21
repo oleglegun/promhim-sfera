@@ -728,7 +728,7 @@ pre {
 #header-shadow{
     z-index: 99px;
     position: absolute;
-    /*background-image: url('images/header-shadow.png');*/
+    background-image: url('./images/header-shadow.png');
     background-repeat: no-repeat;
     background-position: top center;
     width: 100%;

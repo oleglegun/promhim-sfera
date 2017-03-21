@@ -1,5 +1,4 @@
 import React, { PropTypes } from 'react'
-// import PageTitle from '../../components/PageTitle'
 import Article from '../../components/Article'
 import contacts_dict from '../../dictionaries/contacts'
 

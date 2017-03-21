@@ -1,4 +1,5 @@
 import React, { PropTypes } from 'react'
+import Article from '../../components/Article'
 
 function Equipment(props, context) {
     const article = props.children.props.route.pages.filter((item) => {
@@ -6,10 +7,9 @@ function Equipment(props, context) {
     })[0]
 
     return (
-        <div>
-            <h1>{article.data.title}</h1>
+        <Article title={article.data.title}>
             <div dangerouslySetInnerHTML={{ __html: article.data.body }} />
-        </div>
+        </Article>
     )
 }
 

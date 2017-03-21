@@ -1,50 +1,52 @@
 const ru = {
-    'press': [
+    page_title: 'Пресса о нас',
+    press: [
         {
-            'title': 'НЕФТЯНИК',
-            'caption': 'Выпуск №13 | Апрель 2010',
-            'description': 'Коррозия — под контролем',
+            title: 'НЕФТЯНИК',
+            caption: 'Выпуск №13 | Апрель 2010',
+            description: 'Коррозия — под контролем',
         },
         {
-            'title': 'Территория Нефтегаз',
-            'caption': 'Выпуск №6 | Июнь 2013',
-            'description': 'Наиболее эффективные решения в области коррозионного мониторинга',
+            title: 'Территория Нефтегаз',
+            caption: 'Выпуск №6 | Июнь 2013',
+            description: 'Наиболее эффективные решения в области коррозионного мониторинга',
         },
         {
-            'title': 'Нефтяник Удмуртии',
-            'caption': 'Выпуск №21 | Август 2013',
-            'description': 'Microcor: остановить коррозию',
+            title: 'Нефтяник Удмуртии',
+            caption: 'Выпуск №21 | Август 2013',
+            description: 'Microcor: остановить коррозию',
         },
         {
-            'title': 'Инженерная практика',
-            'caption': 'Выпуск №8 | Август 2011',
-            'description': 'Опыт применения антикоррозионной защиты и эксплуатации системы коррозионного мониторинга',
+            title: 'Инженерная практика',
+            caption: 'Выпуск №8 | Август 2011',
+            description: 'Опыт применения антикоррозионной защиты и эксплуатации системы коррозионного мониторинга',
         },
         {
-            'title': 'Oil&Gas Eurasia',
-            'caption': 'Выпуск №5 | Май 2014',
-            'description': 'Новые технологии перекачки продукции скважин',
+            title: 'Oil&Gas Eurasia',
+            caption: 'Выпуск №5 | Май 2014',
+            description: 'Новые технологии перекачки продукции скважин',
         },
         {
-            'title': 'Oil&Gas Eurasia',
-            'caption': 'Выпуск №6 | Июнь 2013',
-            'description': 'Мониторинг коррозии Rohrback Cosasco Systems',
+            title: 'Oil&Gas Eurasia',
+            caption: 'Выпуск №6 | Июнь 2013',
+            description: 'Мониторинг коррозии Rohrback Cosasco Systems',
         },
         {
-            'title': 'Oil&Gas Eurasia',
-            'caption': 'Выпуск №6 | Июнь 2011',
-            'description': 'Наши эффективные решения для борьбы с коррозией',
+            title: 'Oil&Gas Eurasia',
+            caption: 'Выпуск №6 | Июнь 2011',
+            description: 'Наши эффективные решения для борьбы с коррозией',
         },
         {
-            'title': 'Oil&Gas Eurasia',
-            'caption': 'Выпуск №6 | Июнь 2009',
-            'description': 'Мониторинг коррозии в системах высокого давления',
+            title: 'Oil&Gas Eurasia',
+            caption: 'Выпуск №6 | Июнь 2009',
+            description: 'Мониторинг коррозии в системах высокого давления',
         },
     ],
 }
 
 const en = {
-    'press': [
+    page_title: 'Media about us',
+    press: [
         {
             title: 'NEFTIANIK',
             caption: 'Issue №13 | April 2010',

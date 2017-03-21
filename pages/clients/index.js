@@ -4,10 +4,9 @@ import Article from '../../components/Article'
 function Clients(props, context) {
     const title = context.lang == 'ru' ? 'Наши заказчики' : 'Our customers'
     return (
-        <div>
-            <h1>{title}</h1>
+        <Article title={title}>
             <img src="./clients.jpg"/>
-        </div>
+        </Article>
     )
 }
 
