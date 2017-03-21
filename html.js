@@ -29,11 +29,9 @@ module.exports = React.createClass({
                 />
                 {head.title.toComponent()}
                 {head.meta.toComponent()}
-                {/*<TypographyStyle typography={typography} />*/}
-                {/*<GoogleFont typography={typography} />*/}
                 {css}
             </head>
-            <body>
+            <body className="page">
             <div id="react-mount" dangerouslySetInnerHTML={{ __html: this.props.body }} />
             <script src={prefixLink(`/bundle.js?t=${BUILD_TIME}`)} />
             </body>
