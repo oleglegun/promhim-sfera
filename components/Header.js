@@ -12,6 +12,12 @@ function Header(props) {
             <div className="bg">
                 <div className="wrapper">
                     <LangToggle {...props}/>
+                    <nav className="responsive-res">
+                        <Logo/>
+                        <div className="responsive-menu">
+                            <i className="fa fa-bars" />
+                        </div>
+                    </nav>
                     <nav className="desktop-res">
                         <Menu items={menuLeftItems} id="menu-left"/>
                         <Logo/>

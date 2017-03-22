@@ -16,7 +16,9 @@ function Contacts(props, context) {
                 <table>
                     <tbody>
                     <tr>
-                        <td></td>
+                        <td>
+
+                        </td>
                         <td><strong>{dict.contacts.name}</strong></td>
                     </tr>
                     <tr>
@@ -24,7 +26,9 @@ function Contacts(props, context) {
                         <td>{dict.contacts.address[0]}</td>
                     </tr>
                     <tr>
-                        <td></td>
+                        <td>
+
+                        </td>
                         <td>{dict.contacts.address[1]}</td>
                     </tr>
                     <tr>
@@ -33,7 +37,7 @@ function Contacts(props, context) {
                     </tr>
                     <tr>
                         <td><i className="fa fa-envelope-o" /></td>
-                        <td>E-mail: <a class="email" href="mailto:info@promhim-sfera.ru">info@promhim-sfera.ru</a></td>
+                        <td>E-mail: <a className="email" href="mailto:info@promhim-sfera.ru">info@promhim-sfera.ru</a></td>
                     </tr>
                     <tr>
                         <td><i className="fa fa-clock-o" /></td>
