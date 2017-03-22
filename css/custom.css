@@ -1,21 +1,34 @@
 @import url(http://fonts.googleapis.com/css?family=Roboto+Condensed);
 
-#page-content a{ font-family: 'Roboto Condensed'; }
-h1{	font-family: 'Roboto Condensed'; }
-h2{ font-family: 'Roboto Condensed'; }
-h3{ font-family: 'Roboto Condensed'; }
-body{ font-family: 'Roboto Condensed'; }
+#page-content a {
+    font-family: 'Roboto Condensed';
+}
+
+h1 {
+    font-family: 'Roboto Condensed';
+}
+
+h2 {
+    font-family: 'Roboto Condensed';
+}
+
+h3 {
+    font-family: 'Roboto Condensed';
+}
+
+body {
+    font-family: 'Roboto Condensed';
+}
+
 .LangToggle {
     position: absolute;
     top: 10px;
     right: 30px;
 }
 
-.LangToggle .active{
+.LangToggle .active {
     color: red
 }
-
-
 
 /*
 Theme Name:     Princess - Child Theme
@@ -31,123 +44,101 @@ Version:        1.0
 
 /* Common Text */
 h3 {
-    margin-bottom:20px;
+    margin-bottom: 20px;
 }
 
 body {
-    font-size:16px;
+    font-size: 16px;
 }
-
-
-
 
 /* Logo and Menu */
 
 .header .logo img {
-    width:90%;
+    width: 90%;
 }
 
 .header .logo {
-    margin-top:13px;
+    margin-top: 13px;
 }
 
 .header #menu-left,
 .header #menu-right {
-    margin-top:53px;
+    margin-top: 53px;
 }
-
-
 
 .header #menu-left li a,
 .header #menu-right li a,
 .header #menu-main li a {
-    text-transform:uppercase;
-    font-size:16px;
-    color:#444;
+    text-transform: uppercase;
+    font-size: 16px;
+    color: #444;
 }
 
-.header #menu-left>li>a,
-.header #menu-right>li>a {
-    font-size:18px;
+.header #menu-left > li > a,
+.header #menu-right > li > a {
+    font-size: 18px;
 }
-
 
 .header #menu-right li a:hover,
 .header #menu-left li a:hover {
-    color:red;
+    color: red;
 }
-
-
-
-
 
 /* Header - Short */
 
 .header {
     background-image: url('./images/header-bg.png');
-    height: 220px;
-    margin-bottom:15px;
+    height: 150px;
+    margin-bottom: 15px;
 }
 
 .header .bg {
     background-image: url('./images/header.png');
-    height:165px;
+    height: 165px;
 }
 
 #header-shadow {
-    top:90px;
+    top: 90px;
 }
-
-
-
-
 
 /* Menu Width */
 
 .header .menu .sub-menu {
-    width:255px;
+    width: 255px;
 }
 
 .header #menu-left .sub-menu li {
-    width:253px;
+    width: 253px;
 }
-
-
-
-
 
 /* Margin - title */
 
 .tp-title.page-title {
-    margin-bottom:30px;
-    text-transform:uppercase;
+    margin-bottom: 30px;
+    text-transform: uppercase;
 }
-
 
 #page-content {
     margin-bottom: 50px;
-    margin-top: -84px;
+    margin-top: 0px;
 }
-
 
 .frame {
     background: #f4f4f4;
-    padding:3px;
+    padding: 3px;
     border: 4px solid #bbbbbb;
-    border-radius:4px;
+    border-radius: 4px;
 
 }
-
-
 
 /* Tables */
 
 table tbody tr {
-    border-bottom:none;
+    border-bottom: none;
 }
 
 table tbody tr:hover {
-    background-color:white;
+    background-color: white;
 }
 
 /* Link color */
@@ -156,37 +147,33 @@ a.email {
     color: #428bca;
 }
 
-
 /* Footer */
 
 #footer-menu li a {
-    text-transform:uppercase;
+    text-transform: uppercase;
 }
-
 
 /* Mobile Menu */
 
 #responsive-menu {
-    top:55px !important;
+    top: 55px !important;
 }
 
 #respo-menu-holder {
-    top:150px !important;
+    top: 150px !important;
 }
 
 #respo-menu-list-left .sub-menu li a, #respo-menu-list-right .sub-menu li a {
-    text-transform:uppercase;
+    text-transform: uppercase;
 }
 
-
 .revslider-wrap {
-    top:-130px;
+    top: -130px;
 }
 
 .tp-cta {
-    width:95%;
+    width: 95%;
 }
-
 
 .page-template-default #page-content {
     min-height: calc(100% - 311px) !important;
