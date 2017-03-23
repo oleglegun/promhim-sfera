@@ -6,7 +6,7 @@ keywords: []
 lang: en
 ---
 
-![Multiphase pumping station](./multiphase-01.jpg)
+![Multiphase pumping station](./multiphase-01.jpg){.width-33 .alignright}
 
 Environmental care is important when choosing multiphase pumping station
 (MPPS), because if you use **Rosscor** systems, there is no need for gas
