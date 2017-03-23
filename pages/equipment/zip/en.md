@@ -6,7 +6,7 @@ keywords: []
 lang: en
 ---
 
-![Spare parts](./zip-01.jpg)
+![Spare parts](./zip-01.jpg){.width-33 .alignright}
 
 At customer's request, we can supply original spare parts for supplied
 industrial equipment (pumps, compressors, valves, controllers, high
