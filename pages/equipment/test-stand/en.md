@@ -6,7 +6,7 @@ keywords: []
 lang: en
 ---
 
-![Test facility](./test-stand-01.jpg)
+![Test facility](./test-stand-01.jpg){.width-33 .alignright}
 
 JSC PKF "PromHim-Sfera" supplies facilities for valves testing,
 including testing shutoff valves and safety valves. We also supply
@@ -20,7 +20,7 @@ special facilities are used, which allow to determine the durability of
 construction and the degree of its resistance to the internal pressure
 of the operating medium.
 
-## Technical features of the valves testing facilities
+**Technical features of the valves testing facilities**
 
 Pipeline valves testing facilities perform testing in different modes:
 automatic, manual step-by-step, adjustment control mode and also in the
