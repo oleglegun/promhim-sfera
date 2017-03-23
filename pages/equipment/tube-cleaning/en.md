@@ -19,12 +19,12 @@ lang: en
         <li>Needle pig for solid deposits removal</li>
         <li>Pig for hard deposits removal</li>
         <li>Magnetic pigs monitoring equipment</li>
+        <li>Acoustic monitoring equipment</li>
     </ul>
 </div>
 
 <div class="col one_third">
     <ul>
-        <li>Acoustic monitoring equipment</li>
         <li>Spare parts</li>
         <li>Standard pigs</li>
         <li>Polyurethane foam pigs</li>
