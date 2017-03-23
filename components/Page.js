@@ -1,6 +1,7 @@
 import React, { PropTypes } from 'react'
 import Header from './Header'
 import Footer from './Footer'
+import MenuResponsive from './MenuResponsiveHolder'
 import menu_dict from '../dictionaries/menu'
 
 class Page extends React.Component {
@@ -40,6 +41,7 @@ class Page extends React.Component {
                     }}
                 />
                 <div id="header-shadow"></div>
+                <MenuResponsive/>
                 {this.props.children}
                 <Footer />
             </div>

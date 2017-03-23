@@ -1,6 +1,5 @@
 import React, { PropTypes } from 'react'
 import MenuItem from './MenuItem'
-import { prefixLink } from 'gatsby-helpers'
 
 function Menu(props) {
     let menuElements = props.items.map((item, index) => {
