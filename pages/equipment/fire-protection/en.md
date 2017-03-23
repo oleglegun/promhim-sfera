@@ -6,7 +6,7 @@ keywords: []
 lang: en
 ---
 
-![Fire protection](protect-03.png)
+![Fire protection](protect-03.png){.width-33 .alignright}
 
 Effective fire protection for:
 * Electric, pneumatic and hydraulic drives
@@ -31,6 +31,6 @@ purchasing raw materials to packaging and shipping to the customers is
 carried out under quality control and in accordance with ISO 9001-2008
 standards certified by Bureau Veritas.
 
-![Fire protection](protect-04.jpg)
-![Fire protection](protect-01.jpg)
-![Fire protection](protect-02.jpg)
+![Fire protection](protect-04.jpg){.width-33}
+![Fire protection](protect-01.jpg){.width-33}
+![Fire protection](protect-02.jpg){.width-33}
