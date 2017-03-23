@@ -6,7 +6,7 @@ keywords: []
 lang: en
 ---
 
-![Compressor](./comp-01.jpg)
+![Compressor](./comp-01.jpg){.width-33 .alignright}
 
 Of the whole variety of compressor equipment, produced currently by the
 world's leading manufacturers, JSC PKF "PromHim-Sfera" is ready to make

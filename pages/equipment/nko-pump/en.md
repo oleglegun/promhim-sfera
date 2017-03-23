@@ -6,7 +6,7 @@ keywords: []
 lang: en
 ---
 
-![Pump](./pump-01.jpg)
+![Pump](./pump-01.jpg){.width-33 .alignright}
 
 JSC PKF "PromHim-Sfera" supplies a wide range of pumping equipment:
 sealed pumps, submersible pumps, pumps for water supply, pumps for
