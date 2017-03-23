@@ -22,7 +22,7 @@ ventilation system prior to its installation. Indeed, premises
 ventilation will be ineffective without precision computation, which
 includes taking into consideration all the parameters.
 
-![Ventilation](./vent-01.png)
+![Ventilation](./vent-03.png)
 
 Parameters affecting the premises ventilation design:
 * Number of people in the premises,
@@ -41,7 +41,7 @@ they are different in size, the system layout may remain the same. Only
 the parameters affecting power calculation for the ventilation and its
 accessories (fans, valves, line cross-section size) will change.
 
-![Ventilation](./vent-02.png)
+![Ventilation](./vent-01.png)
 
 JSC PKF "PromHim-Sfera" performs delivery of any type of the equipment
 necessary for high-quality air conditioning and ventilation on the
@@ -49,7 +49,7 @@ enterprises of manufacturing or industrial purpose. We will also provide
 you with industrial and manufacturing equipment for smoke exhaust
 systems.
 
-![Ventilation](./vent-03.png)
+![Ventilation](./vent-02.png)
 
 Our company performs ventilation projects for industrial and manufacturing
 buildings. If you want to install a high quality ventilation in

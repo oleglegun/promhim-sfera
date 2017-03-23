@@ -6,7 +6,8 @@ keywords: []
 lang: en
 ---
 
-![Corrosion monitoring](./corrosion-02.jpg)
+![Corrosion monitoring](./corrosion-02.jpg){.width-20 .alignright}
+
 
 JSC PKF "PromHim-Sfera" offers a wide range of **Rohrback Cosasco Systems**
 products for corrosion monitoring:
@@ -23,9 +24,9 @@ possibility of flush mounting with pipeline wall. The undeniable
 advantage of using this type of probe is a possibility of application on
 pipelines, which has to be cleaned with pigs periodically.
 
-![Corrosion monitoring](./corrosion-01.jpg)
 
-Quick Sand Erosion Sensor
+
+## Quick Sand Erosion Sensor ![Corrosion monitoring](./corrosion-01.jpg){.width-20 .alignright}
 
 The unique advantage of the Quick Sand sensors is a possibility of
 evaluation of two corrosion processes - erosion process (abrasive wear)

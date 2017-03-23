@@ -8,29 +8,37 @@ lang: en
 
 ## Pigs and pistons
 
-* Bypass pig
-* Rescue pig
-* Paraffin removal pig
-* Magnetic cleaning pig
-* Brush pig
-* Dual module pig
-* Needle pig for solid deposits removal
-* Pig for hard deposits removal
-* Pigs with double/multistage diameter
+<div class="col one_third">
+    <ul>
+        <li>Bypass pig</li>
+        <li>Rescue pig</li>
+        <li>Paraffin removal pig</li>
+        <li>Magnetic cleaning pig</li>
+        <li>Brush pig</li>
+        <li>Dual module pig</li>
+        <li>Needle pig for solid deposits removal</li>
+        <li>Pig for hard deposits removal</li>
+        <li>Magnetic pigs monitoring equipment</li>
+    </ul>
+</div>
 
-* Magnetic pigs monitoring equipment
-* Acoustic monitoring equipment
-* Spare parts
-* Standard pigs
-* Polyurethane foam pigs
-* High seal pigs
-* Pig passage indicators
-* Ball bearing piston
-* Pipeline sealers
-* Weld seams testers
-* Long wear-resistant pig
-
-![Pig](./pig-01.png)
+<div class="col one_third">
+    <ul>
+        <li>Acoustic monitoring equipment</li>
+        <li>Spare parts</li>
+        <li>Standard pigs</li>
+        <li>Polyurethane foam pigs</li>
+        <li>High seal pigs</li>
+        <li>Pig passage indicators</li>
+        <li>Ball bearing piston</li>
+        <li>Pipeline sealers</li>
+        <li>Weld seams testers</li>
+        <li>Long wear-resistant pig</li>
+    </ul>
+</div>
+<div class="col one_third last">
+    <img src="./pig-01.png" />
+</div>
 
 ## Magnetic pigs monitoring equipment
 
