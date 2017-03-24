@@ -2,9 +2,11 @@ import React, { PropTypes } from 'react'
 import Article from '../../components/Article'
 
 function Equipment(props, context) {
-    const article = props.children.props.route.pages.filter((item) => {
+    // console.log('---', props.route.pages)
+    const article = props.route.pages.filter((item) => {
         return item.data.path === props.children.props.route.path && item.data.lang === context.lang
     })[0]
+    // console.log('---', article)
 
     return (
         <Article title={article.data.title}>

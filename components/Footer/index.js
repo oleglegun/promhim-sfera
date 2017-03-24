@@ -2,8 +2,8 @@ import React, { PropTypes } from "react";
 import MenuItem from "../../components/MenuItem";
 import { Link } from "react-router";
 import { prefixLink } from "gatsby-helpers";
-import logoRu from "./logo-footer.png";
-import logoEn from "./logo-footer.png";
+import logo_ru from "../Logo/logo-ru.svg";
+import logo_en from "../Logo/logo-en.svg";
 import footer_dict from "../../dictionaries/footer";
 
 function Footer(props, context) {
@@ -14,7 +14,7 @@ function Footer(props, context) {
                 <section className="wrapper">
                     <div className="logo">
                         <Link to={prefixLink('/')}>
-                            <img src={context.lang === 'ru' ? logoRu : logoEn} />
+                            <img src={context.lang === 'ru' ? logo_ru : logo_en} />
                         </Link>
                     </div>
                     <div className="footer-left">

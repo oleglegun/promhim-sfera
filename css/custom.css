@@ -54,7 +54,7 @@ body {
 /* Logo and Menu */
 
 .header .logo img {
-    width: 90%;
+    width: 195px;
 }
 
 .header .logo {
@@ -153,6 +153,10 @@ a.email {
     text-transform: uppercase;
 }
 
+footer .wrapper .logo img {
+    height: 80px;
+}
+
 /* Mobile Menu */
 
 #responsive-menu {
@@ -160,7 +164,7 @@ a.email {
 }
 
 #respo-menu-holder {
-    top: 150px !important;
+    top: 110px !important;
 }
 
 #respo-menu-list-left .sub-menu li a, #respo-menu-list-right .sub-menu li a {
