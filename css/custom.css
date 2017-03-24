@@ -120,7 +120,7 @@ body {
 
 #page-content {
     margin-bottom: 50px;
-    margin-top: 0px;
+    margin-top: 0;
 }
 
 .frame {
@@ -180,7 +180,7 @@ footer .wrapper .logo img {
 }
 
 .page-template-default #page-content {
-    min-height: calc(100% - 311px) !important;
+    min-height: calc(100vh - 325px);
 }
 
 /* Images in articles */

@@ -1,10 +1,9 @@
-import React, { PropTypes } from 'react'
-import Header from '../components/Header'
-import Footer from '../components/Footer'
-import { Link } from 'react-router'
-import { prefixLink } from 'gatsby-helpers'
-import Helmet from "react-helmet"
-import { config } from 'config'
+import React, { PropTypes } from "react";
+import Article from '../components/Article'
+import { prefixLink } from "gatsby-helpers";
+import Helmet from "react-helmet";
+import { config } from "config";
+
 
 export default class Index extends React.Component {
     render() {
@@ -16,16 +15,17 @@ export default class Index extends React.Component {
                         { "name": "description", "content": "ПромXим Сфера - Официальный сайт" },
                     ]}
                 />
-                <h1>
-                    Home
-                </h1>
-                <p>{this.context.data}</p>
-
+                <section id="page-content">
+                    <h1>
+                        Home
+                    </h1>
+                    <p>{this.context.lang}</p>
+                </section>
             </div>
         )
     }
 }
 
 Index.contextTypes = {
-    data: PropTypes.number
+    lang: PropTypes.string.isRequired
 }
