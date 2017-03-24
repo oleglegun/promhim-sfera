@@ -1,12 +1,20 @@
 import React, { PropTypes } from "react";
-import Article from '../components/Article'
+import Title from '../components/Title'
+import Slider from '../components/Slider'
+import TextBlock from '../components/TextBlock'
+import AdvantageList from '../components/AdvantageList'
+import BusinessLine from '../components/BusinessLine'
+import Testimonial from '../components/Testimonial'
+import QuestionsBlock from '../components/QuestionsBlock'
 import { prefixLink } from "gatsby-helpers";
 import Helmet from "react-helmet";
 import { config } from "config";
+import index_dict from '../dictionaries/index'
 
 
 export default class Index extends React.Component {
     render() {
+        const dict = index_dict[this.context.lang]
         return (
             <div>
                 <Helmet
@@ -16,10 +24,13 @@ export default class Index extends React.Component {
                     ]}
                 />
                 <section id="page-content">
-                    <h1>
-                        Home
-                    </h1>
-                    <p>{this.context.lang}</p>
+                    <Slider/>
+                    <TextBlock text={dict.company_info}/>
+                    <Title/>
+                    <AdvantageList/>
+                    <BusinessLine/>
+                    <Testimonial/>
+                    <QuestionsBlock/>
                 </section>
             </div>
         )
