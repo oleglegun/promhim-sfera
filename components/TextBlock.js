@@ -3,8 +3,8 @@ import React, { PropTypes } from 'react'
 function TextBlock(props) {
     let items
     if (Array.isArray(props.text)) {
-        items = props.text.map((item) => {
-            return <p>{item}</p>
+        items = props.text.map((item, index) => {
+            return <p key={index}>{item}</p>
         })
     } else {
         items = props.text

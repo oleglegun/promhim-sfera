@@ -15,6 +15,7 @@ import index_dict from '../dictionaries/index'
 export default class Index extends React.Component {
     render() {
         const dict = index_dict[this.context.lang]
+
         return (
             <div>
                 <Helmet
@@ -23,8 +24,9 @@ export default class Index extends React.Component {
                         { "name": "description", "content": "ПромXим Сфера - Официальный сайт" },
                     ]}
                 />
+                <Slider text={dict.slider}/>
                 <section id="page-content">
-                    <Slider/>
+
                     <TextBlock text={dict.company_info}/>
                     <Title/>
                     <AdvantageList/>
