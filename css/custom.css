@@ -52,7 +52,7 @@ body {
 
 .Slider__wrapper {
     position: relative;
-    width: 980px;
+    max-width: 980px;
     margin: auto;
 }
 
@@ -93,6 +93,19 @@ body {
     text-transform: uppercase;
 }
 
+/* Advantage */
+
+.Advantage {
+    text-align: center;
+}
+
+.Advantage p {
+    margin-bottom: 20px;
+}
+
+.Advantage h3 {
+    text-transform: uppercase;
+}
 
 /*
 Theme Name:     Princess - Child Theme

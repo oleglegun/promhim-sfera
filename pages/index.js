@@ -30,7 +30,7 @@ export default class Index extends React.Component {
                     <TextBlock text={dict.company_info}/>
 
                     <Title title={dict.advantages_title}/>
-                    <AdvantageList/>
+                    <AdvantageList items={dict.advantages_list}/>
 
                     <Title title={dict.business_lines_title}/>
                     <BusinessLine/>
@@ -39,6 +39,7 @@ export default class Index extends React.Component {
                     <BusinessLine/>
 
                     <Title title={dict.testimonials_title}/>
+                    <Testimonial/>
                     <Testimonial/>
 
                     <QuestionsBlock/>
