@@ -42,7 +42,7 @@ export default class Index extends React.Component {
                     <Testimonial/>
                     <Testimonial/>
 
-                    <QuestionsBlock/>
+                    <QuestionsBlock title={dict.questions.title} body={dict.questions.body} button={dict.questions.button}/>
                 </section>
             </div>
         )

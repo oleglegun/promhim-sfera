@@ -2,7 +2,7 @@ import React, { PropTypes } from "react";
 
 function Advantage(props) {
     const titleTop = props.title.split(' ')[0]
-    const titleBottom = props.title.split(' ')[1]
+    const titleBottom = props.title.split(' ').slice(1).join(' ')
     return (
         <div className={"col one_fourth" + (props.last ? ' last' : '')}>
             <div className="tp-vl-textblock Advantage">
