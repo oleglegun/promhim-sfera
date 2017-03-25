@@ -2368,7 +2368,7 @@ select{
 
 .tp-title.style2 {
     background-repeat: repeat-x;
-    /*background-image: url('images/title-style2.png');*/
+    background-image: url('images/title-style2.png');
     background-position: center center;
 }
 

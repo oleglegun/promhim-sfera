@@ -28,10 +28,19 @@ export default class Index extends React.Component {
                 <section id="page-content">
 
                     <TextBlock text={dict.company_info}/>
-                    <Title/>
+
+                    <Title title={dict.advantages_title}/>
                     <AdvantageList/>
+
+                    <Title title={dict.business_lines_title}/>
                     <BusinessLine/>
+                    <BusinessLine/>
+                    <BusinessLine/>
+                    <BusinessLine/>
+
+                    <Title title={dict.testimonials_title}/>
                     <Testimonial/>
+
                     <QuestionsBlock/>
                 </section>
             </div>
