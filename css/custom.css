@@ -213,6 +213,21 @@ a i.fa.fa-angle-right {
     overflow: hidden;
 }
 
+/* BusinessLine */
+
+.BusinessLine h1 {
+    text-transform: uppercase;
+}
+
+.BusinessLine span {
+    color: #999;
+}
+
+.BusinessLine img {
+    max-width: 100%;
+    height: auto;
+}
+
 /*
 Theme Name:     Princess - Child Theme
 Theme URI:      http://themeprince.com/themes/princess

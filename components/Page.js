@@ -15,14 +15,14 @@ class Page extends React.Component {
         }
     }
 
-    toggleSetLangRu = (e) => {
+    setLangRu = (e) => {
         e.preventDefault()
         this.setState({
             lang: 'ru'
         })
     }
 
-    toggleSetLangEn = (e) => {
+    setLangEn = (e) => {
         e.preventDefault()
         this.setState({
             lang: 'en'
@@ -33,8 +33,8 @@ class Page extends React.Component {
         return (
             <div>
                 <Header
-                    setLangRu={this.toggleSetLangRu}
-                    setLangEn={this.toggleSetLangEn}
+                    setLangRu={this.setLangRu}
+                    setLangEn={this.setLangEn}
                     lang={this.state.lang}
                     dictionary={{
                         menu: menu_dict[this.state.lang]

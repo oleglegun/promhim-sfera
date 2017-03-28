@@ -3,7 +3,7 @@ import Title from '../components/Title'
 import Slider from '../components/Slider'
 import TextBlock from '../components/TextBlock'
 import AdvantageList from '../components/AdvantageList'
-import BusinessLine from '../components/BusinessLine'
+import BusinessLines from '../components/BusinessLines'
 import TestimonialList from '../components/TestimonialList'
 import QuestionsBlock from '../components/QuestionsBlock'
 import { prefixLink } from "gatsby-helpers";
@@ -33,10 +33,7 @@ export default class Index extends React.Component {
                     <AdvantageList items={dict.advantages_list}/>
 
                     <Title title={dict.business_lines_title}/>
-                    <BusinessLine/>
-                    <BusinessLine/>
-                    <BusinessLine/>
-                    <BusinessLine/>
+                    <BusinessLines items={dict.business_lines_list}/>
 
                     <Title title={dict.testimonials_title}/>
                     <TestimonialList items={dict.testimonials_list}/>
