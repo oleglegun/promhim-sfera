@@ -1,11 +1,19 @@
 import React, { PropTypes } from 'react'
 import { Link } from 'react-router'
-import { prefixLink } from 'gatsby-helpers'
 
 function MenuItem(props) {
+    if (props.subMenu) {
+        return (
+            <li onMouseOver={props.toggleMenuOpen} onMouseOut={props.toggleMenuClose}
+                onClick={props.toggleMenuClose} >
+                <Link activeStyle={{color: 'red'}}>{props.title}</Link>
+                {props.subMenu}
+            </li>
+        )
+    }
     return (
         <li>
-            <Link to={prefixLink(props.path)}>{props.title}</Link>
+            <Link activeStyle={{color: 'red'}} to={props.path}>{props.title}</Link>
             {props.subMenu}
         </li>
     )
@@ -14,7 +22,9 @@ function MenuItem(props) {
 MenuItem.propTypes = {
     path: PropTypes.string,
     title: PropTypes.string.isRequired,
-    subMenu: PropTypes.object
+    subMenu: PropTypes.object,
+    toggleMenuOpen: PropTypes.func,
+    toggleMenuClose: PropTypes.func,
 }
 MenuItem.defaultProps = {}
 

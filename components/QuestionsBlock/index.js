@@ -4,7 +4,7 @@ import { Link } from 'react-router'
 
 function QuestionsBlock(props) {
     return (
-        <div className="tp-vl-row">
+        <div className="QuestionsBlock tp-vl-row">
             <div className="col one_fourth">
                 <div className="tp-vl-imageblock">
                     <img src={questionImg} className="aligncenter" />

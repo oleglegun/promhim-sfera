@@ -107,7 +107,33 @@ body {
     text-transform: uppercase;
 }
 
+@media (max-width: 480px) {
+    .one_fourth, .three_fourth {
+        width: 100%;
+        margin-right: 0%;
+        margin-left: 0%;
+        clear: both;
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 690px) {
+
+    .one_fourth {
+        width: 46%;
+        margin-right: 2%;
+        margin-left: 2%;
+        float: left;
+        min-height: 1px;
+        overflow: hidden;
+        margin-bottom: 30px;
+    }
+}
+
+
+
 /* QuestionsBlock */
+
 .tp-cta.style2 {
     padding: 3px;
     border: 1px solid #e2e2e2;
@@ -121,14 +147,22 @@ body {
     position: relative;
     float: left;
     width: 100%;
+    text-align: center;
 }
 
 .tp-cta.style2 .text {
-    width: 55%;
+    /*width: 55%;*/
     width: calc(60% - 60px);
     float: left;
     padding-left: 30px;
     padding-right: 30px;
+}
+
+@media (max-width: 860px) {
+    .tp-cta.style2 .text {
+        text-align: center;
+        width: 85%;
+    }
 }
 
 .tp-cta.style2 h1 {
@@ -166,11 +200,30 @@ body {
     font-weight: normal;
 }
 
+@media (max-width: 860px) {
+
+    .tp-cta.style2 .button {
+        clear: both;
+        margin: 0px auto;
+        margin-top: 30px;
+        position: relative;
+        top: auto;
+        left: auto;
+        right: auto;
+    }
+}
+
 a i.fa.circle,
 a i.fa.fa-angle-right {
     margin-left: 10px;
     border-color: #fff;
     color: #fff
+}
+
+@media (max-width: 690px) {
+    .QuestionsBlock img {
+        display: none;
+    }
 }
 
 /* Testimonials */
@@ -226,6 +279,12 @@ a i.fa.fa-angle-right {
 .BusinessLine img {
     max-width: 100%;
     height: auto;
+}
+
+/* Menu */
+
+.header .menu .sub-menu.open {
+    display: block;
 }
 
 /*

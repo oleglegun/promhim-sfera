@@ -619,11 +619,11 @@ pre {
     padding-top: 10px;
 }
 
-.header #menu-main li:hover > .sub-menu,
-.header #menu-left li:hover > .sub-menu,
-.header #menu-right li:hover > .sub-menu{
-    display: block;
-}
+/*.header #menu-main li:hover > .sub-menu,*/
+/*.header #menu-left li:hover > .sub-menu,*/
+/*.header #menu-right li:hover > .sub-menu{*/
+    /*display: block;*/
+/*}*/
 
 .header #menu-main .sub-menu li:hover,
 .header #menu-left .sub-menu li:hover,
