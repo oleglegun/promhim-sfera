@@ -4,7 +4,7 @@ import Slider from '../components/Slider'
 import TextBlock from '../components/TextBlock'
 import AdvantageList from '../components/AdvantageList'
 import BusinessLine from '../components/BusinessLine'
-import Testimonial from '../components/Testimonial'
+import TestimonialList from '../components/TestimonialList'
 import QuestionsBlock from '../components/QuestionsBlock'
 import { prefixLink } from "gatsby-helpers";
 import Helmet from "react-helmet";
@@ -39,8 +39,8 @@ export default class Index extends React.Component {
                     <BusinessLine/>
 
                     <Title title={dict.testimonials_title}/>
-                    <Testimonial/>
-                    <Testimonial/>
+                    <TestimonialList items={dict.testimonials_list}/>
+
 
                     <QuestionsBlock title={dict.questions.title} body={dict.questions.body} button={dict.questions.button}/>
                 </section>

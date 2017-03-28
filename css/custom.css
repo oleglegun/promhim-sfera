@@ -173,6 +173,45 @@ a i.fa.fa-angle-right {
     color: #fff
 }
 
+/* Testimonials */
+
+.tp-testemonial {
+    width: 100%;
+    clear: both;
+    margin-bottom: 20px;
+}
+
+.tp-testemonial .client {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-clip: content-box;
+    float: left;
+    margin-right: 15px;
+    border: 1px solid #e2e2e2;
+    padding: 3px;
+    overflow: hidden;
+    border-radius: 50%;
+    width: 112px;
+    height: 112px;
+}
+
+.col:first-child .tp-testemonial .client {
+    background-image: url('./images/testimonials/testimonial-taneko.jpg')
+}
+
+.col:last-child .tp-testemonial .client {
+    background-image: url('./images/testimonials/testimonial-tnk.png')
+}
+
+.tp-testemonial .text {
+    background-image: url(./images/quote.png);
+    background-position: top left;
+    background-repeat: no-repeat;
+    padding-left: 40px;
+    padding-top: 10px;
+    overflow: hidden;
+}
 
 /*
 Theme Name:     Princess - Child Theme
