@@ -18,7 +18,7 @@ export default class Index extends React.Component {
         return (
             <div>
                 <Helmet
-                    title={config.siteTitle}
+                    title={config[this.context.lang]}
                     meta={[
                         { "name": "description", "content": "ПромXим Сфера - Официальный сайт" },
                     ]}

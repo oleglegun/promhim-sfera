@@ -19,7 +19,7 @@
     width: 1em;
     margin-right: .2em;
     text-align: center;
-     /*opacity: .8;*/
+    /*opacity: .8;*/
 
     /* For safety - reset parent styles, that can break glyph codes*/
     font-variant: normal;
@@ -80,3 +80,10 @@
     content: '\e806';
 }
 
+.icon-cancel:before {
+    content: '\e807';
+}
+
+.icon-menu:before {
+    content: '\f0c9';
+}

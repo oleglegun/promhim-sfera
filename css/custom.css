@@ -82,7 +82,7 @@ body {
 
 .Slider__text--third {
     top: 190px;
-    left: 40px;
+    left: 30px;
 }
 
 @media (max-width: 860px) {
@@ -106,7 +106,7 @@ body {
 
     .Slider__text--third {
         top: 125px;
-        left: 40px;
+        left: 30px;
     }
 }
 

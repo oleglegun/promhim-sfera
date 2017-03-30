@@ -51,7 +51,7 @@ const ru = {
 
 const en = {
 
-    slider: ['Welcome', 'to the website of', 'JSC PKF "PromHim-Sfera"'],
+    slider: ['Welcome', 'to the website of', '"PromHim-Sfera"'],
 
     company_info: [
         'JSK PKF "PromHim-Sfera" is recommended in the Russian market as a reliable partner in the field of complex supplies of industrial equipment. Our company supplies equipment for the oil and gas industry, aviation and metal industry for more than ten years and constantly continues its development. Professional approach to business and gained experience have greatly helped us to expand the range of products and geography of delivery, as well as to succeed in different lines of business – delivery of industrial and laboratory equipment, engineering services and supply of spare parts.',

@@ -1,6 +1,5 @@
 import React from 'react'
 import Page from '../components/Page'
-
 import '../css/reset.css'
 import '../css/style.css'
 import '../css/custom.css'

@@ -1,17 +1,22 @@
-import React, { PropTypes } from 'react'
-import Article from '../../components/Article'
+import React, { PropTypes } from "react";
+import Article from "../../components/Article";
+import Helmet from "react-helmet";
+import { config } from "../../config.toml";
 
 function Equipment(props, context) {
-    // console.log('---', props.route.pages)
     const article = props.route.pages.filter((item) => {
         return item.data.path === props.children.props.route.path && item.data.lang === context.lang
     })[0]
-    // console.log('---', article)
 
     return (
-        <Article title={article.data.title}>
-            <div dangerouslySetInnerHTML={{ __html: article.data.body }} />
-        </Article>
+        <div>
+            <Helmet
+                title={article.data.title + ' / ' + config[context.lang]}
+            />
+            <Article title={article.data.title}>
+                <div dangerouslySetInnerHTML={{ __html: article.data.body }} />
+            </Article>
+        </div>
     )
 }
 

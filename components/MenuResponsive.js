@@ -16,7 +16,7 @@ class MenuResponsive extends Component {
     }
 
     render() {
-        const iconClass = this.state.isOpened ? 'fa fa-times' : 'fa fa-bars'
+        const iconClass = this.state.isOpened ? 'icon-cancel' : 'icon-menu'
         return (
             <div id="responsive-menu" onClick={this.toggleMenuOpen}>
                 <i className={iconClass} />
