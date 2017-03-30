@@ -241,13 +241,6 @@ body {
     }
 }
 
-a i.fa.circle,
-a i.fa.fa-angle-right {
-    margin-left: 10px;
-    border-color: #fff;
-    color: #fff
-}
-
 .tp-vl-imageblock {
     text-align: center;
 }

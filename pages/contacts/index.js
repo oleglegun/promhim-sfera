@@ -33,15 +33,15 @@ function Contacts(props, context) {
                     </tr>
                     <tr>
                         <td><i className="icon-phone" /></td>
-                        <td>{dict.contacts.phone[0]}<strong>{dict.contacts.phone[1]}</strong></td>
-                    </tr>
-                    <tr>
-                        <td><i className="icon-mail" /></td>
-                        <td>E-mail: <a className="email" href="mailto:info@promhim-sfera.ru">info@promhim-sfera.ru</a></td>
+                        <td>{dict.contacts.phone[0]}<a href="tel:+74956444633">+7 495 644-46-33</a></td>
                     </tr>
                     <tr>
                         <td><i className="icon-clock" /></td>
                         <td>{dict.contacts.time}</td>
+                    </tr>
+                    <tr>
+                        <td><i className="icon-mail" /></td>
+                        <td>E-mail: <a className="email" href="mailto:info@promhim-sfera.ru">info@promhim-sfera.ru</a></td>
                     </tr>
                     </tbody>
                 </table>

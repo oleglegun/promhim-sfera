@@ -6,7 +6,7 @@ function MenuItem(props) {
         return (
             <li onMouseOver={props.toggleMenuOpen} onMouseOut={props.toggleMenuClose}
                 onClick={props.toggleMenuClose} >
-                <Link activeStyle={{color: 'red'}}>{props.title}</Link>
+                <Link style={{cursor: "pointer"}} activeStyle={{color: 'red'}}>{props.title}</Link>
                 {props.subMenu}
             </li>
         )
