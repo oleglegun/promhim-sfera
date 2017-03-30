@@ -10,7 +10,7 @@ function TextBlock(props) {
         items = props.text
     }
     return (
-        <div>{items}</div>
+        <div className="TextBlock">{items}</div>
     )
 }
 

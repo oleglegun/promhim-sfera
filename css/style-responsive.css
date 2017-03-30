@@ -119,7 +119,7 @@ RESPONSIVE STYLINGS
         top: 190px;
         left: 0px;
         z-index: 999;
-        display: none;
+        /*display: none;*/
         /*background-color: rgba(255, 255, 255, 0.9);*/
         background-color: #fff;
         /*background-image: url('images/dd-bg.png');	*/
@@ -127,13 +127,6 @@ RESPONSIVE STYLINGS
         background-position: top center;
         box-shadow: 0 4px 2px -2px rgba(182, 182, 182, 0.40);
         padding-top: 40px;
-        padding-bottom: 30px;
-    }
-
-    #respo-menu-list-left .sub-menu,
-    #respo-menu-list-right .sub-menu{
-        /*display: none;*/
-
     }
 
     #respo-menu-list-left li a,

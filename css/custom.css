@@ -20,6 +20,16 @@ body {
     font-family: 'Roboto Condensed';
 }
 
+ul {
+    list-style-type: square;
+    list-style-position: inside;
+    margin-bottom: 20px;
+}
+
+ul li {
+    padding-bottom: 5px;
+}
+
 .LangToggle {
     position: absolute;
     top: 15px;
@@ -65,7 +75,7 @@ body {
     font-family: Arial;
     font-size: 40px;
     color: #fff;
-    text-shadow: 0 2px 5px rgba(0,0,0,0.5);
+    text-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
     /*font-weight: 800;*/
     letter-spacing: 1px;
 }
@@ -110,6 +120,14 @@ body {
     }
 }
 
+/* TextBlock */
+
+.TextBlock p {
+    text-indent: 20px;
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
 /* Title */
 
 .tp-title.style2 {
@@ -133,6 +151,7 @@ body {
 .Advantage h3 {
     text-transform: uppercase;
 }
+
 @media (max-width: 690px) {
 
     .one_fourth {
@@ -155,10 +174,6 @@ body {
         margin-bottom: 30px;
     }
 }
-
-
-
-
 
 /* QuestionsBlock */
 
@@ -197,11 +212,12 @@ body {
     text-transform: uppercase;
     margin-bottom: 10px;
 }
+
 .content .button, .button {
     text-align: center;
     color: #fff;
     font-size: 15px;
-    font-family: 'Oswald',arial;
+    font-family: 'Oswald', arial;
     font-weight: normal;
     font-weight: 400;
     line-height: 42px;
@@ -297,6 +313,7 @@ body {
         margin: 0px auto;
     }
 }
+
 /* BusinessLine */
 
 .BusinessLine h1 {
@@ -318,6 +335,30 @@ body {
     display: block;
 }
 
+ul.menu,
+.menu li {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 0;
+}
+
+#respo-menu-holder {
+    display: block;
+    transition: top .4s ease-out;
+}
+
+#respo-menu-holder.opened {
+    top: 110px;
+}
+
+#respo-menu-holder:not(.opened) {
+    top: -600px;
+}
+
+#respo-menu-holder.opened ~ div {
+    opacity: 0.2;
+    transition: opacity 0.2s ease;
+}
 /*
 Theme Name:     Princess - Child Theme
 Theme URI:      http://themeprince.com/themes/princess
@@ -447,13 +488,7 @@ footer .wrapper .logo img {
 
 /* Mobile Menu */
 
-#responsive-menu {
-    top: 55px !important;
-}
 
-#respo-menu-holder {
-    top: 110px !important;
-}
 
 #respo-menu-list-left .sub-menu li a, #respo-menu-list-right .sub-menu li a {
     text-transform: uppercase;
