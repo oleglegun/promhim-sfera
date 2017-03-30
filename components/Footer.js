@@ -1,10 +1,10 @@
 import React, { PropTypes } from "react";
-import MenuItem from "../../components/MenuItem";
+import MenuItem from "../components/MenuItem";
 import { Link } from "react-router";
-import { prefixLink } from "gatsby-helpers";
-import logo_ru from "../Logo/logo-ru.svg";
-import logo_en from "../Logo/logo-en.svg";
-import footer_dict from "../../dictionaries/footer";
+
+import logo_ru from "./Logo/logo-ru.svg";
+import logo_en from "./Logo/logo-en.svg";
+import footer_dict from "../dictionaries/footer";
 
 function Footer(props, context) {
     const dict = footer_dict[context.lang]
@@ -13,7 +13,7 @@ function Footer(props, context) {
             <div className="bg">
                 <section className="wrapper">
                     <div className="logo">
-                        <Link to={prefixLink('/')}>
+                        <Link to="/">
                             <img src={context.lang === 'ru' ? logo_ru : logo_en} />
                         </Link>
                     </div>
@@ -27,7 +27,7 @@ function Footer(props, context) {
                         <p className="copyright">{dict.copyright + new Date().getFullYear()}</p>
                     </div>
                     <div id="footer-icons">
-                        <a href="mailto:info@promhim-sfera.ru" target="_blank"><i className="fa fa-envelope-o"/></a>
+                        <a href="mailto:info@promhim-sfera.ru" target="_blank"><i className="icon-mail"/></a>
                     </div>
                 </section>
             </div>

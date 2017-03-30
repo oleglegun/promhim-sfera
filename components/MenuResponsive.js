@@ -11,8 +11,6 @@ class MenuResponsive extends Component {
     }
 
     toggleMenuOpen = () => {
-        // this.responsiveMenuHolder.style.display = !this.state.isOpened ? 'block' : 'none'
-        this.responsiveMenuHolder.style.display = 'block'
         this.responsiveMenuHolder.classList.toggle('opened')
         this.setState({ isOpened: !this.state.isOpened})
     }

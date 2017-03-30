@@ -342,23 +342,6 @@ ul.menu,
     margin-bottom: 0;
 }
 
-#respo-menu-holder {
-    display: block;
-    transition: top .4s ease-out;
-}
-
-#respo-menu-holder.opened {
-    top: 110px;
-}
-
-#respo-menu-holder:not(.opened) {
-    top: -600px;
-}
-
-#respo-menu-holder.opened ~ div {
-    opacity: 0.2;
-    transition: opacity 0.2s ease;
-}
 /*
 Theme Name:     Princess - Child Theme
 Theme URI:      http://themeprince.com/themes/princess
@@ -488,8 +471,6 @@ footer .wrapper .logo img {
 
 /* Mobile Menu */
 
-
-
 #respo-menu-list-left .sub-menu li a, #respo-menu-list-right .sub-menu li a {
     text-transform: uppercase;
 }
@@ -504,6 +485,34 @@ footer .wrapper .logo img {
 
 .page-template-default #page-content {
     min-height: calc(100vh - 325px);
+}
+
+#respo-menu-holder {
+    display: none;
+}
+
+
+@media (max-width: 980px) {
+    #respo-menu-holder {
+        display: block;
+        transition: top .4s cubic-bezier(0.9, 0, 0.18, 1);
+    }
+
+    #respo-menu-holder.opened {
+        top: 110px;
+    }
+
+    #respo-menu-holder:not(.opened) {
+        top: -600px;
+    }
+
+    #respo-menu-holder.opened ~ div {
+        opacity: 0.2;
+    }
+
+    #respo-menu-holder ~ div {
+        transition: opacity 0.4s cubic-bezier(0.9, 0, 0.18, 1);
+    }
 }
 
 /* Images in articles */
