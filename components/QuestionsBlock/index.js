@@ -17,9 +17,7 @@ function QuestionsBlock(props) {
                             <h1>{props.title}</h1>
                             <p>{props.body}</p>
                         </div>
-                        <Link to="/contacts/" className="button">{props.button}
-                            <i className="fa fa-angle-right circle" />
-                        </Link>
+                        <Link to="/contacts/" className="button">{props.button}</Link>
                     </div>
                 </div>
             </div>

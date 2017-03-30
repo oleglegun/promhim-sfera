@@ -7,7 +7,8 @@ import '../css/reset.css'
 import '../css/style.css'
 import '../css/custom.css'
 import '../css/style-responsive.css'
-import '../css/fa.min.css'
+import '../css/icons.css'
+// import '../css/fa.min.css'
 
 
 // import { rhythm } from '../utils/typography'

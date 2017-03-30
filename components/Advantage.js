@@ -6,7 +6,7 @@ function Advantage(props) {
     return (
         <div className={"col one_fourth" + (props.last ? ' last' : '')}>
             <div className="tp-vl-textblock Advantage">
-                <p><i className={"fa " + props.iconClass + " circle large"} /></p>
+                <p><i className={props.iconClass + " large"} /></p>
                 <h3>{titleTop}<br />{titleBottom}</h3>
                 <p>{props.body}</p>
             </div>

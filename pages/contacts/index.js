@@ -22,7 +22,7 @@ function Contacts(props, context) {
                         <td><strong>{dict.contacts.name}</strong></td>
                     </tr>
                     <tr>
-                        <td><i className="fa fa-map-marker" /></td>
+                        <td><i className="icon-location" /></td>
                         <td>{dict.contacts.address[0]}</td>
                     </tr>
                     <tr>
@@ -32,15 +32,15 @@ function Contacts(props, context) {
                         <td>{dict.contacts.address[1]}</td>
                     </tr>
                     <tr>
-                        <td><i className="fa fa-phone" /></td>
+                        <td><i className="icon-phone" /></td>
                         <td>{dict.contacts.phone[0]}<strong>{dict.contacts.phone[1]}</strong></td>
                     </tr>
                     <tr>
-                        <td><i className="fa fa-envelope-o" /></td>
+                        <td><i className="icon-mail" /></td>
                         <td>E-mail: <a className="email" href="mailto:info@promhim-sfera.ru">info@promhim-sfera.ru</a></td>
                     </tr>
                     <tr>
-                        <td><i className="fa fa-clock-o" /></td>
+                        <td><i className="icon-clock" /></td>
                         <td>{dict.contacts.time}</td>
                     </tr>
                     </tbody>
