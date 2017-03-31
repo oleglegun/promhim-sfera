@@ -8,16 +8,13 @@ class MenuResponsive extends Component {
     componentDidMount() {
         this.responsiveMenuHolder = document.getElementById('respo-menu-holder')
         this.responsiveMenuHolder.addEventListener('click', this.toggleMenuOpen)
+        console.log('---', 'change', this.state.isOpened)
+
     }
 
     toggleMenuOpen = () => {
         this.setState((prevState) => ({ isOpened: !prevState.isOpened }))
-
-        if (this.state.isOpened) {
-            this.responsiveMenuHolder.classList.remove('opened')
-        } else {
-            this.responsiveMenuHolder.classList.add('opened')
-        }
+        this.responsiveMenuHolder.classList.toggle('opened')
     }
 
     render() {
