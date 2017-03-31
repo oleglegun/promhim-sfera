@@ -38,7 +38,6 @@
     "clean": "rm -r public/*",
     "copy-static": "cp -R assets/favicon/ public/; cp -R assets/static public/",
     "deploy": "npm run clean; gatsby build --prefix-links && gh-pages -d public",
-    "watch": "watch 'echo File changed!' .",
     "dev": "gatsby develop",
     "test": "npm run unit",
     "unit": "NODE_ENV=test mocha --compilers js:babel-core/register --require test/setup/index.js test/unit || exit 0"

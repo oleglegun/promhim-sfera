@@ -1,5 +1,5 @@
-import React, { PropTypes } from 'react'
-import Article from '../../components/Article'
+import React, { PropTypes } from "react";
+import Article from "../../components/Article";
 import Helmet from "react-helmet";
 import { config } from "../../config.toml";
 
@@ -10,9 +10,9 @@ function Clients(props, context) {
             <Helmet
                 title={title + ' / ' + config[context.lang]}
             />
-        <Article title={title}>
-            <img src="./clients.jpg"/>
-        </Article>
+            <Article title={title}>
+                <img src="./clients.jpg" />
+            </Article>
         </div>
     )
 }
@@ -21,9 +21,7 @@ Clients.contextTypes = {
     lang: PropTypes.string.isRequired
 }
 
-Clients.propTypes = {
-    route: PropTypes.object.isRequired
-}
+Clients.propTypes = {}
 Clients.defaultProps = {}
 
 export default Clients

@@ -1,20 +1,20 @@
 import React, { PropTypes } from 'react'
 import { Link } from 'react-router'
 
-function MenuItem(props) {
-    if (props.subMenu) {
+function MenuItem({path, title, subMenu, toggleMenuOpen, toggleMenuClose}) {
+    if (subMenu) {
         return (
-            <li onMouseOver={props.toggleMenuOpen} onMouseOut={props.toggleMenuClose}
-                onClick={props.toggleMenuClose} >
-                <Link style={{cursor: "pointer"}} activeStyle={{color: 'red'}}>{props.title}</Link>
-                {props.subMenu}
+            <li onMouseOver={toggleMenuOpen} onMouseOut={toggleMenuClose}
+                onClick={toggleMenuClose} >
+                <Link style={{cursor: "pointer"}} activeStyle={{color: 'red'}}>{title}</Link>
+                {subMenu}
             </li>
         )
     }
     return (
         <li>
-            <Link activeStyle={{color: 'red'}} to={props.path}>{props.title}</Link>
-            {props.subMenu}
+            <Link activeStyle={{color: 'red'}} to={path}>{title}</Link>
+            {subMenu}
         </li>
     )
 }

@@ -1,18 +1,18 @@
-import React, { PropTypes } from 'react'
+import React, { PropTypes } from "react";
 
-function PressItem(props) {
+function PressItem({ img, pdfLink, title, caption, description, last }) {
     return (
-        <div className={'col one_fourth' + (props.last ? ' last' : '')}>
+        <div className={'col one_fourth' + (last ? ' last' : '')}>
             <div className="tp-vl-textblock">
-                <a href={props.pdfLink} target="_blank">
-                    <img src={props.img}/>
+                <a href={pdfLink} target="_blank">
+                    <img src={img} />
                 </a>
                 <p>
-                    <strong>{props.title}</strong>
-                    <br/>
-                    <em>{props.caption}</em>
+                    <strong>{title}</strong>
+                    <br />
+                    <em>{caption}</em>
                 </p>
-                <p>{props.description}</p>
+                <p>{description}</p>
             </div>
         </div>
     )

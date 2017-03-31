@@ -1,10 +1,10 @@
-import React, { PropTypes } from 'react'
+import React, { PropTypes } from "react";
 
-function Title(props) {
+function Title({ title }) {
     return (
         <div className="tp-title style2">
             <div className="titles">
-                <h1>{props.title}</h1>
+                <h1>{title}</h1>
             </div>
         </div>
     )

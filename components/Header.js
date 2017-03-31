@@ -1,8 +1,8 @@
-import React, { PropTypes } from 'react'
-import Menu from './Menu'
-import LangToggle from './LangToggle'
-import Logo from './Logo'
-import MenuResponsive from './MenuResponsive'
+import React, { PropTypes } from "react";
+import Menu from "./Menu";
+import LangToggle from "./LangToggle";
+import Logo from "./Logo";
+import MenuResponsive from "./MenuResponsive";
 
 function Header(props) {
     let menuLeftItems = props.dictionary.menu.menu_main_left
@@ -12,15 +12,15 @@ function Header(props) {
         <header className="header">
             <div className="bg">
                 <div className="wrapper">
-                    <LangToggle {...props}/>
+                    <LangToggle {...props} />
                     <nav className="responsive-res">
-                        <Logo/>
-                        <MenuResponsive/>
+                        <Logo />
+                        <MenuResponsive />
                     </nav>
                     <nav className="desktop-res">
-                        <Menu items={menuLeftItems} id="menu-left"/>
-                        <Logo/>
-                        <Menu items={menuRightItems} id="menu-right"/>
+                        <Menu items={menuLeftItems} id="menu-left" />
+                        <Logo />
+                        <Menu items={menuRightItems} id="menu-right" />
                     </nav>
                 </div>
             </div>

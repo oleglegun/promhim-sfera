@@ -1,9 +1,7 @@
 import React, { PropTypes } from "react";
 import Advantage from "./Advantage";
 
-function AdvantageList(props) {
-    const { items } = props
-
+function AdvantageList({ items }) {
     return (
         <div className="tp-vl-row">
             <Advantage iconClass={"icon-thumbs-up"} title={items[0].title} body={items[0].body} />

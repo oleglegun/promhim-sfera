@@ -1,7 +1,6 @@
 import React, { PropTypes } from "react";
 import MenuItem from "../components/MenuItem";
 import { Link } from "react-router";
-
 import logo_ru from "./Logo/logo-ru.svg";
 import logo_en from "./Logo/logo-en.svg";
 import footer_dict from "../dictionaries/footer";

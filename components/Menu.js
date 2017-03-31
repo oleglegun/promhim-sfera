@@ -32,14 +32,21 @@ class Menu extends React.Component {
                 )
             }
 
-            return <MenuItem key={index} title={item.title} path={item.path} subMenu={subMenu} toggleMenuOpen={this.toggleMenuOpen} toggleMenuClose={this.toggleMenuClose}/>
+            return (
+                <MenuItem
+                    key={index}
+                    title={item.title}
+                    path={item.path}
+                    subMenu={subMenu}
+                    toggleMenuOpen={this.toggleMenuOpen}
+                    toggleMenuClose={this.toggleMenuClose} />
+            )
         })
 
         return (
             <ul
                 id={this.props.id}
-                className="menu"
-            >
+                className="menu">
                 {menuElements}
             </ul>
         )

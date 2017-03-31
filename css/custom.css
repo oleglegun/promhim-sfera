@@ -233,6 +233,11 @@ ul li {
     overflow: hidden;
 }
 
+.tp-testemonial .text span {
+    font-style: italic;
+    color: #777;
+}
+
 /* BusinessLine */
 
 .BusinessLine h1 {

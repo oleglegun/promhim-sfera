@@ -1,8 +1,8 @@
-import React, { PropTypes } from "react"
-import questionImg from "./question.png"
-import { Link } from 'react-router'
+import React, { PropTypes } from "react";
+import questionImg from "./question.png";
+import { Link } from "react-router";
 
-function QuestionsBlock(props) {
+function QuestionsBlock({ title, body, button }) {
     return (
         <div className="QuestionsBlock tp-vl-row">
             <div className="col one_fourth">
@@ -14,10 +14,10 @@ function QuestionsBlock(props) {
                 <div className="tp-cta style2 left">
                     <div className="inner">
                         <div className="text">
-                            <h1>{props.title}</h1>
-                            <p>{props.body}</p>
+                            <h1>{title}</h1>
+                            <p>{body}</p>
                         </div>
-                        <Link to="/contacts/" className="button">{props.button}</Link>
+                        <Link to="/contacts/" className="button">{button}</Link>
                     </div>
                 </div>
             </div>

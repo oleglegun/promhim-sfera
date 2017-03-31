@@ -25,7 +25,8 @@ Equipment.contextTypes = {
 }
 
 Equipment.propTypes = {
-    route: PropTypes.object.isRequired
+    route: PropTypes.object.isRequired,
+    children: PropTypes.node
 }
 Equipment.defaultProps = {}
 

@@ -1,12 +1,12 @@
-import React, { PropTypes } from 'react'
+import React, { PropTypes } from "react";
 
-function Testimonial(props) {
+function Testimonial({ body, caption, date }) {
     return (
         <div>
             <div className="tp-testemonial">
                 <div className="client" />
-                <div className="text">{props.body}<br/><br/>
-                    <strong>{props.caption}</strong><br/><span>{props.date}</span>
+                <div className="text">{body}<br /><br />
+                    <strong>{caption}</strong><br /><span>{date}</span>
                 </div>
             </div>
         </div>

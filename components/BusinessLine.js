@@ -1,7 +1,7 @@
 import React, { PropTypes } from "react";
 
-function BusinessLine(props) {
-    const {title, body, img, reverse } = props
+function BusinessLine({ title, body, img, reverse }) {
+
     return (
         reverse ? (
                 <div className="BusinessLine">

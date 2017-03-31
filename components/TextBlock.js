@@ -1,13 +1,13 @@
-import React, { PropTypes } from 'react'
+import React, { PropTypes } from "react";
 
-function TextBlock(props) {
+function TextBlock({ text }) {
     let items
-    if (Array.isArray(props.text)) {
-        items = props.text.map((item, index) => {
+    if (Array.isArray(text)) {
+        items = text.map((item, index) => {
             return <p key={index}>{item}</p>
         })
     } else {
-        items = props.text
+        items = text
     }
     return (
         <div className="TextBlock">{items}</div>
@@ -20,6 +20,7 @@ TextBlock.propTypes = {
         PropTypes.array
     ])
 }
+
 TextBlock.defaultProps = {}
 
 export default TextBlock

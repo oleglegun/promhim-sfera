@@ -1,7 +1,6 @@
 import React, { PropTypes } from "react";
 
-function Advantage(props) {
-    const { title, body, iconClass, last } = props
+function Advantage({ title, body, iconClass, last }) {
     const titleTop = title.split(' ')[0]
     const titleBottom = title.split(' ').slice(1).join(' ')
 

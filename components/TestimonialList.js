@@ -1,16 +1,16 @@
-import React, { PropTypes } from 'react'
-import Testimonial from './Testimonial'
+import React, { PropTypes } from "react";
+import Testimonial from "./Testimonial";
 
 function TestimonialList(props) {
-    const t1 = props.items[0]
-    const t2 = props.items[1]
+    const [t1, t2] = props.items
+
     return (
         <div className="tp-vl-row">
             <div className="col one_half">
-                <Testimonial body={t1.body} caption={t1.caption} date={t1.date}/>
+                <Testimonial body={t1.body} caption={t1.caption} date={t1.date} />
             </div>
             <div className="col one_half last">
-                <Testimonial body={t2.body} caption={t2.caption} date={t2.date}/>
+                <Testimonial body={t2.body} caption={t2.caption} date={t2.date} />
             </div>
         </div>
     )
