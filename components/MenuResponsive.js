@@ -1,4 +1,4 @@
-import React, { Component, PropTypes } from 'react'
+import React, { Component, PropTypes } from "react";
 
 class MenuResponsive extends Component {
     state = {
@@ -11,8 +11,13 @@ class MenuResponsive extends Component {
     }
 
     toggleMenuOpen = () => {
-        this.responsiveMenuHolder.classList.toggle('opened')
-        this.setState({ isOpened: !this.state.isOpened})
+        this.setState((prevState) => ({ isOpened: !prevState.isOpened }))
+
+        if (this.state.isOpened) {
+            this.responsiveMenuHolder.classList.remove('opened')
+        } else {
+            this.responsiveMenuHolder.classList.add('opened')
+        }
     }
 
     render() {

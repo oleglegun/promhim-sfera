@@ -95,7 +95,7 @@ RESPONSIVE STYLINGS
     }
 
     #respo-menu-holder:not(.opened) {
-        top: -600px;
+        top: -560px;
     }
 
     #respo-menu-holder.opened ~ div {

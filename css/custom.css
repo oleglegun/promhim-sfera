@@ -95,8 +95,6 @@ ul li {
     left: 30px;
 }
 
-
-
 /* TextBlock */
 
 .TextBlock p {
@@ -129,7 +127,6 @@ ul li {
     text-transform: uppercase;
 }
 
-
 /* QuestionsBlock */
 
 .tp-cta.style2 {
@@ -155,8 +152,6 @@ ul li {
     padding-left: 30px;
     padding-right: 30px;
 }
-
-
 
 .tp-cta.style2 h1 {
     text-transform: uppercase;
@@ -194,11 +189,9 @@ ul li {
     font-weight: normal;
 }
 
-
 .tp-vl-imageblock {
     text-align: center;
 }
-
 
 /* Testimonials */
 
@@ -240,7 +233,6 @@ ul li {
     overflow: hidden;
 }
 
-
 /* BusinessLine */
 
 .BusinessLine h1 {
@@ -254,6 +246,15 @@ ul li {
 .BusinessLine img {
     max-width: 100%;
     height: auto;
+    padding-bottom: 10px;
+}
+
+.BusinessLine .tp-vl-textblock {
+    text-align: center;
+}
+
+.BusinessLine p {
+    text-align: justify;
 }
 
 /* Menu */
@@ -417,7 +418,6 @@ footer .wrapper .logo img {
 #respo-menu-holder {
     display: none;
 }
-
 
 /* Images in articles */
 
