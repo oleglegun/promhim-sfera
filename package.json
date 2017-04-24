@@ -36,12 +36,9 @@
   "scripts": {
     "build": "npm run clean; gatsby build",
     "clean": "rm -r public/",
-    "copy-static": "cp -R assets/favicon/ public/; cp -R assets/static public/",
-    "deploy": "npm run clean; gatsby build --prefix-links && gh-pages -d public",
+    "copy-assets": "cp -R assets/ public/",
     "dev": "gatsby develop",
-    "test": "npm run unit",
-    "unit": "NODE_ENV=test mocha --compilers js:babel-core/register --require test/setup/index.js test/unit || exit 0",
-    "deploy-ftp": "npm run build && npm run upload-ftp",
-    "upload-ftp": "lftp promhim-sfera.ru -e 'rm -r htdocs/;mirror -R public/ htdocs/;exit'"
+    "deploy:ftp": "npm run build && npm run copy-assets && npm run upload:ftp",
+    "upload:ftp": "lftp promhim-sfera.ru -e 'rm -r htdocs/;mirror -R public/ htdocs/;exit'"
   }
 }
